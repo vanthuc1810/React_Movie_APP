@@ -1,0 +1,60 @@
+.wrapper {
+    padding: 40px;
+    border-radius: 12px;
+    background-color: #0F0F0F;
+    margin: 0 20px;
+    min-height: 250px;
+}
+.review-wrapper
+{
+    margin: 40px 0;
+}
+.heading
+{
+    display: flex;
+    justify-content: space-between;
+}
+.user-details
+{
+    color: #fff;
+    overflow: hidden;
+    width: 50%;
+}
+.user-name
+{
+    font-size: 2rem;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+.user-locate
+{
+    font-size: 1.6rem;
+    color: #999999;
+}
+.rate
+{
+    color: #999999;
+    display: flex;
+    gap: 4px;
+    display: flex;
+    align-items: center;
+}
+.rate-number
+{
+    font-size: 2rem;
+}
+.title
+{
+    color: #999999;
+    font-size: 1.6rem;
+    margin-top: 20px;
+    text-align: justify;
+    
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; // Số dòng tối đa để hiển thị
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

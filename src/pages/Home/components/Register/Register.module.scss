@@ -1,0 +1,114 @@
+.wrapper{
+    background-color: #141414;   
+    padding-top: 10em;
+    color: #fff;
+}
+.register_heading
+{
+    display: flex;
+}
+
+.register_option
+{
+    background-color: #0f0f0f;
+    border-radius: 10px;
+    padding: 15px 10px;
+    display: inline-flex;
+    gap: 10px;
+}
+.register_option_btn
+{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;          /* Loại bỏ margin */
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #ccc;
+}
+.register_option_btn:hover
+{
+    background-color: #1F1F1F;
+}
+.active
+{
+    background-color: #1F1F1F;
+    color: #fff;
+}
+.categoies_title
+{
+    padding-right: 100px;
+}
+
+.list_card
+{
+    margin-top: 80px;
+    display: flex;
+    gap: 30px;
+}
+.card
+{
+    border-radius: 12px;
+    padding: 50px;
+    background-color: #1A1A1A;
+}
+
+
+.details
+{
+    margin-bottom: 50px;
+}
+.card_heading
+{
+    font-size: 2rem;
+    margin-bottom: 16px;
+}
+.card_title
+{
+    text-align: justify;
+    color: #999999;
+    font-size: 1.6rem;
+}
+.price
+{
+    font-size: 3rem;
+}
+.time{
+    font-size: 1.6rem;
+    color: #ccc;
+}
+.btn_container
+{
+    justify-content: space-between;
+    margin-top: 50px;
+    display: flex;
+}
+.btn{
+    font-size: 1.4rem;
+    padding: 18px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background-color: #141414;
+}
+
+
+.btn:hover{
+    opacity: 0.8;
+}
+.btn_confirm
+{
+    background-color: #E50000;
+}
+
+.register-text-heading
+{
+    font-size: 2.8rem;
+}
+.register-title
+{
+    font-size: 1.6rem;
+}

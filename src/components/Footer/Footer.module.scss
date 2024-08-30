@@ -1,0 +1,27 @@
+.wrapper{
+    background-color: #141414;   
+    padding: 10em 0;
+    color: #fff;
+}
+
+.container 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.col
+{
+    display: inline-block;
+}
+.heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.title
+{
+    font-size: 1.6rem;
+}
+.social
+{
+    display: flex;
+}

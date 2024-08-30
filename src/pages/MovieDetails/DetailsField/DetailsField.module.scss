@@ -1,0 +1,23 @@
+.wrapper
+{
+    color: #fff;
+    +.wrapper
+    {
+        margin-top: 30px;
+    }
+    font-size: 1.8rem;
+}
+
+.heading
+{
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.heading-name
+{
+    font-size: 1.6rem;
+    color: #999999;
+}
