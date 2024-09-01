@@ -11,7 +11,7 @@ const reviewsReponsive = {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -27,7 +27,7 @@ const reviewsReponsive = {
             <div className={cx('row')}>
                 <Carousel
                 responsive={reviewsReponsive}
-
+                removeArrowOnDeviceType={["tablet","mobile"]}
                 >
                   {reviews.map((review, index) => (
                   <Review key={review.id} username={review.author} locate={review.author_details.username} rate={review.author_details.rating/2} title={review.content}/>

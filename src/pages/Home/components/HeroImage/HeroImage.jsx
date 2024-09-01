@@ -13,7 +13,7 @@ export const HeroImage = () => {
   return (
     <div className={cx("hero-img-container")}>
       <div className={cx("hero-img")}>
-        <img src="/images/HeroIImage.png" alt="" style={{ width: "100%" }} />
+        <img src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725080812/SGVyb0lJbWFnZV90bDludGM=/drilldown" alt=""  />
       </div>
       <div className={cx("overlay")}>
         
@@ -28,14 +28,7 @@ export const HeroImage = () => {
           create your own watchlists, so you can easily find the content you
           want to watch.
         </p>
-        {/* <Link className={cx("hero-btn")}>
-          <img
-            src="/images/media_icon.png"
-            style={{ width: "28px", height: "28px" }}
-            alt=""
-          />
-          <h6 className={cx("hero-text")}>Start Watching Now</h6>
-        </Link> */}
+    
       
         <Button
         large

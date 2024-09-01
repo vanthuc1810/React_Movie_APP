@@ -51,10 +51,6 @@ export const MovieSection = ({ itemsPerPage , ref}) => {
       movies = movies.filter((movie) => movie.genre_ids.includes(genreId));
       setItemOffset(0);
     }
-    // endOffset = itemOffset + itemsPerPage;
-    // console.log(`Loading items from ${itemOffset} to ${endOffset}`);
-    // currentItems = movies.slice(itemOffset, endOffset);
-    // pageCount = Math.ceil(movies.length / itemsPerPage);
   }, [genreId, pageCount]);
   return (
     <section className={cx("wrapper")} ref={ref} >
@@ -71,18 +67,18 @@ export const MovieSection = ({ itemsPerPage , ref}) => {
         previousLabel="< previous"
         pageClassName={cx("page-item")}
         pageLinkClassName={cx("page-link")}
-        previousClassName={cx("page-item")}
         previousLinkClassName={cx("page-link")}
-        nextClassName={cx("page-item")}
         nextLinkClassName={cx("page-link")}
         breakLabel="..."
         breakClassName={cx("page-item")}
         breakLinkClassName={cx("page-link")}
-        containerClassName="pagination"
+        containerClassName={cx("pagination")}
         activeClassName="active"
         activeLinkClassName={cx("activeLinkClassName")}
         renderOnZeroPageCount={null}
         className={cx("paginate", "container")}
+        previousClassName	= {cx("previousClassName")}
+        nextClassName	={cx("nextClassName")}
       />
     </section>
   );

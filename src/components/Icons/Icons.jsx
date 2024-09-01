@@ -1,7 +1,7 @@
 export const PlayIcon = ({ width = "28px", height = "28px" }) => {
   return (
     <img
-      src="/images/media_icon.png"
+      src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725091806/bWVkaWFfaWNvbl9xdXJsbmI=/drilldown"
       style={{ width: { width }, height: { height } }}
       alt=""
     />

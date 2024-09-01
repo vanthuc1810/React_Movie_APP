@@ -38,7 +38,7 @@ export const MovieDetails = () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 4,
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
@@ -126,7 +126,7 @@ export const MovieDetails = () => {
                       responsive={responsive}
                       customButtonGroup={<ButtonGroup />}
                       renderButtonGroupOutside={true}
-                      removeArrowOnDeviceType={["desktop"]}
+                      removeArrowOnDeviceType={["desktop","tablet","mobile"]}
                     >
                       {credits?.map((credit, index) => (
                         <div key={index} className={cx("carousel__item")}>

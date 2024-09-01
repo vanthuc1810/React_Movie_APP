@@ -17,12 +17,12 @@ export const DevicesSection = () => {
             </p>
           </div>
         </div>
-        <div className={cx('row', 'mt50')}>
-          <div className="col-4">
+        <div className={cx('row', 'mt50', "device_group")}>
+          <div className={cx("col-4", "devive_reposive")}>
             <div className={cx('device')}>
               <div className={cx('device_details', 'd-flex', 'align-items-center')}>
                 <img
-                  src="/images/devices_icon/smartphone.png"
+                  src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725119247/c21hcnRwaG9uZV9jZHBxY3M=/drilldown"
                   alt=""
                   className={cx('device_icon')}
                 />
@@ -35,11 +35,11 @@ export const DevicesSection = () => {
               </p>
             </div>
           </div>
-          <div className="col-4">
+          <div className={cx("col-4", "devive_reposive")}>
             <div className={cx('device')}>
               <div className={cx('device_details', 'd-flex', 'align-items-center')}>
                 <img
-                  src="/images/devices_icon/tablet.png"
+                  src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725119247/dGFibGV0X3hnYXNvdQ==/drilldown"
                   alt=""
                   className={cx('device_icon')}
                 />
@@ -52,11 +52,11 @@ export const DevicesSection = () => {
               </p>
             </div>
           </div>
-          <div className="col-4">
+          <div className={cx("col-4", "devive_reposive")}>
             <div className={cx('device')}>
               <div className={cx('device_details', 'd-flex', 'align-items-center')}>
                 <img
-                  src="/images/devices_icon/smarttv.png"
+                  src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725119247/c21hcnR0dl9jNnZuNWg=/drilldown"
                   alt=""
                   className={cx('device_icon')}
                 />
@@ -69,11 +69,11 @@ export const DevicesSection = () => {
               </p>
             </div>
           </div>
-          <div className="col-4">
+          <div className={cx("col-4", "devive_reposive")}>
             <div className={cx('device')}>
               <div className={cx('device_details', 'd-flex', 'align-items-center')}>
                 <img
-                  src="/images/devices_icon/laptops.png"
+                  src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725119247/bGFwdG9wc19oYzlpd2k=/drilldown"
                   alt=""
                   className={cx('device_icon')}
                 />
@@ -82,15 +82,17 @@ export const DevicesSection = () => {
               <p className={cx('device_title')}>
                 StreamVibe is optimized for both Android and iOS smartphones.
                 Download our app from the Google Play Store or the Apple App
+                StoreStreamVibe is optimized for both Android and iOS smartphones.
+                Download our app from the Google Play Store or the Apple App
                 Store
               </p>
             </div>
           </div>
-          <div className="col-4">
+          <div className={cx("col-4", "devive_reposive")}>
             <div className={cx('device')}>
               <div className={cx('device_details', 'd-flex', 'align-items-center')}>
                 <img
-                  src="/images/devices_icon/gamingconsoles.png"
+                  src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725119247/Z2FtaW5nY29uc29sZXNfbDRpcGZi/drilldown"
                   alt=""
                   className={cx('device_icon')}
                 />
@@ -103,11 +105,11 @@ export const DevicesSection = () => {
               </p>
             </div>
           </div>
-          <div className="col-4">
+          <div className={cx("col-4", "devive_reposive")}>
             <div className={cx('device')}>
               <div className={cx('device_details', 'd-flex', 'align-items-center')}>
                 <img
-                  src="/images/devices_icon/vrheadset.png"
+                  src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725119247/dnJoZWFkc2V0X3NtdjUzOA==/drilldown"
                   alt=""
                   className={cx('device_icon')}
                 />

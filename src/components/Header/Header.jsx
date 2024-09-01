@@ -10,10 +10,10 @@ export const Header = () => {
     <header className={cx("header", "d-flex", "justify-content-around")}>
       <div className={cx("header__logo")}>
         <NavLink to={"/"}>
-          <img src="/images/Logo.png" alt="" className={cx("header__logo-img")} />
+          <img src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725120588/TG9nb19md3V4ZnI=/drilldown" alt="" className={cx("header__logo-img")} />
         </NavLink>
       </div>
-      <div className={cx("header__navigation", "d-flex", "align-items-center")}>
+      <div className={cx("header__navigation", "align-items-center")}>
         <div className={cx("navigation__items")}>
         <NavLink  className={(nav) => cx("navigation__item-link",{active: nav.isActive} )} to={"/"}>
             Home

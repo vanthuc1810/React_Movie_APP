@@ -38,6 +38,21 @@
     border: 0;
 
 }
+
+@media screen and (max-width: 500px) {
+
+    .large{
+        padding: 10px 14px;
+        border-radius: 8px;
+        font-size: 1.0rem;
+        &:hover{
+            opacity: 0.9;
+        }
+        outline: none;
+        border: 0;
+    
+    }
+}
 .primary{
     background-color: #E50000;
     text-decoration: none;

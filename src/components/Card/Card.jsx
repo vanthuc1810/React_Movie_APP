@@ -10,7 +10,7 @@ export const Card = () => {
     <div className={cx('wrapper')}>
       <div className={cx('container', 'card')}>
         <img
-          src="/images/backgroundimg.png"
+          src="https://res-console.cloudinary.com/vanthuc/thumbnails/v1/image/upload/v1725119517/YmFja2dyb3VuZGltZ19ucm51YnE=/drilldown"
           alt=""
           className={cx('card_img')}
         />

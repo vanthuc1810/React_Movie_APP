@@ -14,7 +14,7 @@ export const Home = () => {
         <>
             <HeroImage/>
             <CategoriesSection/>
-            <DevicesSection/>
+            <DevicesSection/> 
             <Register/>
             <Card />
         </>
