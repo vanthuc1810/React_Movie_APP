@@ -29,7 +29,7 @@ export const Register = () => {
 
           <div className={cx("list_card")}>
         <div className="row mt-4">
-            <div className="col-4 col-12">
+            <div className="col-md-4 col-12">
               <div className={cx("card")}>
                 <div className={cx("details")}>
                   <div className={cx("card_heading")}>Basic Plan</div>
@@ -48,7 +48,7 @@ export const Register = () => {
                 </div>
               </div>
             </div>
-            <div className="col-4 col-12">
+            <div className="col-md-4 col-12">
               <div className={cx("card")}>
                 <div className={cx("details")}>
                   <div className={cx("card_heading")}>Basic Plan</div>
@@ -67,7 +67,7 @@ export const Register = () => {
                 </div>
               </div>
             </div>
-            <div className="col-4 col-12">
+            <div className="col-md-4 col-12">
               <div className={cx("card")}>
                 <div className={cx("details")}>
                   <div className={cx("card_heading")}>Basic Plan</div>

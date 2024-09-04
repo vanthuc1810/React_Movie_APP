@@ -29,7 +29,7 @@ function App(props) {
     <div className="App">
       <Header/>
       <NavRoutes/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   );
 }

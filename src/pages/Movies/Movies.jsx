@@ -20,7 +20,6 @@ export const Movies = () => {
         <HeroImage/>
         <CategoriesSection  />
         <MovieSection itemsPerPage={24} />
-        
         </>
     );
 }
