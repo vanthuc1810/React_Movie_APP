@@ -1,0 +1,35 @@
+.categories-item
+{
+    background-color: #1A1A1A;
+    padding: 30px !important;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.categori-img img {
+    width: 100%;
+}
+.carousel_item
+{
+    padding: 30px;
+}
+.category
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.top_10
+{
+    font-size: 1.6rem;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #E50000;
+    color: #fff;
+    line-height: 1;
+}
+.category_name{
+    font-size: 2rem;
+
+}

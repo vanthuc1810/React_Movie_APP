@@ -1,0 +1,254 @@
+@media screen and (max-width: 1920px) and (min-width: 1441px) {
+    .wrapper{
+        background-color: #141414;   
+        padding: 10em 0;
+        color: #fff;
+    }
+    .categories_btn{
+        background-color: #0F0F0F;
+        padding: 16px;
+        border-radius: 12px;
+    }
+    .btn_forward{
+        background-color: #1A1A1A;
+        padding: 14px;
+        border-radius: 8px;
+        outline: none;
+        border: 0;
+    
+    }
+    .btn-next{
+        background-color: #1A1A1A;
+        padding: 14px;
+        border-radius: 8px;
+        outline: none;
+        border: 0;
+    }
+    .categories_section
+    {
+        margin-top: 80px;
+    }
+    
+    .categories-item
+    {
+        background-color: #1A1A1A;
+        padding: 30px !important;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .categori-img img {
+        width: 100%;
+    }
+    
+    .device{
+        background-color: #0F0F0F;
+        border-radius: 12px;
+        padding: 50px;
+        border: 1px solid rgba($color: #fff, $alpha: 0.3);
+        margin-top: 30px;
+    }
+    
+    .device_icon {
+        padding: 16px;
+    }
+    
+    .device_name{
+        font-size: 2rem;
+    
+    }
+    .device_title
+    {
+        text-align: justify;
+        font-size: 1.6rem;
+    }
+    
+    .mt80{
+        margin-top: 80px;
+    }
+    .mt50{
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) and (min-width: 600px) {
+    .wrapper{
+        background-color: #141414;   
+        padding: 10em 0;
+        color: #fff;
+    }
+    .device_heading p 
+    {
+        font-size: 1.6rem;
+    }
+    .categories_btn{
+        background-color: #0F0F0F;
+        padding: 16px;
+        border-radius: 12px;
+    }
+    .btn_forward{
+        background-color: #1A1A1A;
+        padding: 14px;
+        border-radius: 8px;
+        outline: none;
+        border: 0;
+    
+    }
+    .btn-next{
+        background-color: #1A1A1A;
+        padding: 14px;
+        border-radius: 8px;
+        outline: none;
+        border: 0;
+    }
+    .categories_section
+    {
+        margin-top: 80px;
+    }
+    
+    .categories-item
+    {
+        background-color: #1A1A1A;
+        padding: 30px !important;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .categori-img img {
+        width: 100%;
+    }
+    
+    .device{
+        background-color: #0F0F0F;
+        border-radius: 12px;
+        padding: 50px;
+        border: 1px solid rgba($color: #fff, $alpha: 0.3);
+        margin-top: 30px;
+    }
+    
+    .device_icon {
+        padding: 16px;
+    }
+    
+    .device_name{
+        font-size: 2rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .device_title
+    {
+        text-align: justify;
+        font-size: 1.6rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 10; /* Giới hạn số dòng là 2 */
+        line-clamp: 2;
+    }
+    
+    .mt80{
+        margin-top: 80px;
+    }
+    .mt50{
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .wrapper{
+        background-color: #141414;   
+        padding: 10em 0;
+        color: #fff;
+    }
+    .device_heading p 
+    {
+        font-size: 1.6rem;
+    }
+    .categories_btn{
+        background-color: #0F0F0F;
+        padding: 16px;
+        border-radius: 12px;
+    }
+    .btn_forward{
+        background-color: #1A1A1A;
+        padding: 14px;
+        border-radius: 8px;
+        outline: none;
+        border: 0;
+    
+    }
+    .device_group
+    {
+        flex-direction: column;
+    }
+    .devive_reposive
+    {
+        width: 100% !important;
+    }
+    .btn-next{
+        background-color: #1A1A1A;
+        padding: 14px;
+        border-radius: 8px;
+        outline: none;
+        border: 0;
+    }
+    .categories_section
+    {
+        margin-top: 80px;
+    }
+    
+    .categories-item
+    {
+        background-color: #1A1A1A;
+        padding: 30px !important;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .categori-img img {
+        width: 100%;
+    }
+    
+    .device{
+        background-color: #0F0F0F;
+        border-radius: 12px;
+        padding: 24px;
+        border: 1px solid rgba($color: #fff, $alpha: 0.3);
+        margin-top: 30px;
+    }
+    
+    .device_icon {
+        padding: 16px;
+    }
+    
+    .device_name{
+        font-size: 2rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .device_title
+    {
+        text-align: justify;
+        font-size: 1.6rem;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 10; /* Giới hạn số dòng là 2 */
+        line-clamp: 2;
+    }
+    
+    .mt80{
+        margin-top: 80px;
+    }
+    .mt50{
+        margin-top: 50px;
+    }
+
+}

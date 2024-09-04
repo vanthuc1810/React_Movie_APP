@@ -1,0 +1,43 @@
+@media screen and (max-width: 1920px) and (min-width: 1441px) {
+  .wrapper {
+    color: #fff;
+    + .wrapper {
+      margin-top: 30px;
+    }
+    font-size: 1.8rem;
+  }
+
+  .heading {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .heading-name {
+    font-size: 1.6rem;
+    color: #999999;
+  }
+}
+
+@media screen and (max-width: 1440px) and (min-width: 600px) {
+  .wrapper {
+    color: #fff;
+    + .wrapper {
+      margin-top: 30px;
+    }
+    font-size: 1.8rem;
+  }
+
+  .heading {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .heading-name {
+    font-size: 1.6rem;
+    color: #999999;
+  }
+}
